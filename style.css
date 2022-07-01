@@ -65,3 +65,37 @@ li a:hover {
 .active {
   background-color: #4CAF50;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(146, 146, 238);
+}
+.Menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+.Menu a li{
+    padding: 20px;
+}
+.Menu a{
+    text-decoration: none;
+}
+.Menu li:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(146, 146, 238);
+    color: white;
+    text-align: center;
+ }
